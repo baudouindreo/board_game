@@ -2,6 +2,8 @@
 #define FONCTIONS_H
 
 #include <stdio.h>
+#include <ncurses.h>
+
 
 struct serpant
 {

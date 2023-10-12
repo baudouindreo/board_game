@@ -12,6 +12,7 @@ void partie(){
     for(int i=0; i<anaconda.taille; i++){
             plateau[anaconda.tailleX[i]][anaconda.tailleY[i]]=1;
     }
+    timeout(100);
     rotation(&anaconda,plateau);
 }
 
